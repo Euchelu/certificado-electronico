@@ -1,0 +1,204 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Contenedor principal */
+.main-container, .form-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos principales */
+.main-title {
+    font-size: 2rem;
+    color: #3f3d56;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Botones de acceso */
+.access-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.button {
+    background-color: #a8c0d8;
+    color: #fff;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #7a98b3;
+    transform: translateY(-2px);
+}
+
+/* Mensajes de error */
+.error-message {
+    background-color: #ffe6e6;
+    color: #d9534f;
+    border: 1px solid #f5c6cb;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error-message a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Formulario */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #3f3d56;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input[type="text"]:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #a8c0d8;
+    box-shadow: 0 0 0 3px rgba(168, 192, 216, 0.3);
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Sección de datos del usuario */
+.user-data {
+    background-color: #f3f4f7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.user-data h3 {
+    font-size: 1.3rem;
+    color: #3f3d56;
+    margin-bottom: 15px;
+}
+
+.user-data p {
+    font-size: 1rem;
+    color: #555;
+}
+
+form {
+    margin-top: 20px;
+}
+
+/* Botón de enviar */
+.submit-button {
+    background-color: #a0d995;
+    color: #fff;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #84c68b;
+    transform: translateY(-2px);
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Estilo del formulario de descarga */
+form[action="servlet3"] input[type="submit"] {
+    background-color: #ffb6b9;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form[action="servlet3"] input[type="submit"]:hover {
+    background-color: #ff9496;
+}
+
+/* Agregar sombra a las páginas */
+body {
+    background: linear-gradient(135deg, #f0f4f8, #fdfcfb);
+}
+
+/* Hacer el contenido más accesible y limpio */
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        padding: 20px;
+    }
+    
+    .access-buttons {
+        flex-direction: column;
+    }
+    
+    .button {
+        width: 100%;
+        padding: 15px;
+        margin-top: 10px;
+    }
+}

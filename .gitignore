@@ -1,0 +1,22 @@
+# Maven
+target/
+*.class
+
+# IntelliJ / NetBeans / Eclipse
+.idea/
+*.iml
+nbproject/
+build/
+dist/
+*.iws
+*.ipr
+
+# NetBeans
+nbactions.xml
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
