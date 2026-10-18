@@ -20,3 +20,6 @@ nbactions.xml
 # OS
 .DS_Store
 Thumbs.db
+
+# Credenciales locales
+.env
